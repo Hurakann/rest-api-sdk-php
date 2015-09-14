@@ -136,7 +136,7 @@ class TheHover {
         function usersFetch($req_data) {
         	return $this->doQuery("user", $req_data, 'GET');
         }
-search: {
+        
         /**
         * Find all users matching the incoming data set in the Hover system using Hover API, the next attributes
         * must be required, not null or empty.
