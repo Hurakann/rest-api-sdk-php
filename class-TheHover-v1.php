@@ -136,6 +136,22 @@ class TheHover {
         function usersFetch($req_data) {
         	return $this->doQuery("user", $req_data, 'GET');
         }
-
+search: {
+        /**
+        * Find all users matching the incoming data set in the Hover system using Hover API, the next attributes
+        * must be required, not null or empty.
+        *
+        *  - branch_id: The parent branch_id of the user
+        *  - broot: The parent branch_id of the user
+        *  - pagination: The number of elements per page to slide data
+        *  - thql: Query to execute
+        *  _ page: The number of page to fetch
+        *
+        * @param req_data representing the object data to find
+        * @param callback function to set the body response
+        */
+        function search($req_data){
+   		return $this->doQuery("user/search/ql", $req_data, 'GET');
+         }
 }
 ?>
