@@ -114,5 +114,28 @@ class TheHover {
 		return $this->doQuery("user", $req_data, 'GET');
 	}
 
+        /**
+        *  Update a profile to the parent user in the Hover system using Hover API.
+        *
+        * @param req_data representing the data to update the profile
+        * @param callback function to set the body response
+        */
+        function usersUpdate($req_data){
+        	return $this->doQuery("user", $req_data, 'PUT');
+        }
+
+        /**
+        *  Get list of the profiles assigned to a parent user in the Hover system using Hover API, the next attributes
+        *  must be required:
+        *
+        *  - user_id: id of the parent user
+        *
+        *  @param req_data contained the data to get the profile list
+        *  @param callback function to set the body response
+        */
+        function usersFetch($req_data) {
+        	return $this->doQuery("user", $req_data, 'GET');
+        }
+
 }
 ?>
