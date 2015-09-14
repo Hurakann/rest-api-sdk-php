@@ -125,19 +125,6 @@ class TheHover {
         }
 
         /**
-        *  Get list of the profiles assigned to a parent user in the Hover system using Hover API, the next attributes
-        *  must be required:
-        *
-        *  - user_id: id of the parent user
-        *
-        *  @param req_data contained the data to get the profile list
-        *  @param callback function to set the body response
-        */
-        function usersFetch($req_data) {
-        	return $this->doQuery("user", $req_data, 'GET');
-        }
-        
-        /**
         * Find all users matching the incoming data set in the Hover system using Hover API, the next attributes
         * must be required, not null or empty.
         *
