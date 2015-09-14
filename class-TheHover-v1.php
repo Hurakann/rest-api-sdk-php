@@ -46,7 +46,7 @@ class TheHover {
 			// initiate curl
                 	$ch = curl_init($url);
 			
-			curl_setopt ( $ch, CURLOPT_POSTFIELDS, $data);
+			curl_setopt ( $ch, CURLOPT_POSTFIELDS, json_encode($data));
                 	$headers[1] = "Accept: application/json";
                 	$headers[2] = "Content-Type: application/json";
 		} else {
