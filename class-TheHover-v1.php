@@ -79,7 +79,7 @@ class TheHover {
    				return $json;	
 			} else {
  				$info = curl_getinfo($ch);
-				return $info[http_code];
+				return $info;
 			}
 		}
 	}
