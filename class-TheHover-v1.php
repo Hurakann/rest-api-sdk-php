@@ -16,7 +16,7 @@ class TheHover {
 	private $apiUrl = "https://127.0.0.1:8080/";
 
 	// API Agent
-	private $agent = "TheHover-SDK-PHP-0.1";
+	private $agent = "TheHoverSDK/rest-sdk-php-0.1";
 	
 	function __construct($clientKey, $apiUrl, $encoding) {
 		$this->clientKey = $clientKey;
