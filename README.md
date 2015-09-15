@@ -50,6 +50,14 @@ To use the SDK follow the next steps:
 
 		?>	
 	```
+* Function Index
+
+Function | Parameters | REST API DOC
+-------- | ---------- | ------------ 
+**[usersCreate/1](#userscreate)** | $req_data - an array with `key-values` to create object (as in json) | [REST API](http://docs.hoverapi.apiary.io/#user)
+**[usersFetch/1](#usersfetch)** | $req_data - an array with `key-values` to get object (as in query string) | [REST API](http://docs.hoverapi.apiary.io/#user)
+**[usersUpdate/1](#usersupdate)** | $req_data - an array with `key-values` to update object (as in json) | [REST API](http://docs.hoverapi.apiary.io/#user)
+**[search/1](#search)** | $req_data - an array with `key-values` to execute a search with THQL | [REST API](http://docs.hoverapi.apiary.io/#usersearchthql)
 
 About
 =====
