@@ -52,12 +52,12 @@ To use the SDK follow the next steps:
 	```
 * Function Index
 
-Function | Parameters | Doc
--------- | ---------- | --- 
-**[usersCreate/1](#userscreate)** | $req_data - an array with `key-values` to create object (as in json) | [API](http://docs.hoverapi.apiary.io/#user)
-**[usersFetch/1](#usersfetch)** | $req_data - an array with `key-values` to get object (as in query string) | [API](http://docs.hoverapi.apiary.io/#user)
-**[usersUpdate/1](#usersupdate)** | $req_data - an array with `key-values` to update object (as in json) | [API](http://docs.hoverapi.apiary.io/#user)
-**[search/1](#search)** | $req_data - an array with `key-values` to execute a search with THQL | [API](http://docs.hoverapi.apiary.io/#usersearchthql)
+Function | Parameters
+-------- | ---------- 
+**[usersCreate/1](http://docs.hoverapi.apiary.io/#user)** | $req_data - an array with `key-values` to create object (as in json)
+**[usersFetch/1](http://docs.hoverapi.apiary.io/#user)** | $req_data - an array with `key-values` to get object (as in query string)
+**[usersUpdate/1](http://docs.hoverapi.apiary.io/#user)** | $req_data - an array with `key-values` to update object (as in json)
+**[search/1](http://docs.hoverapi.apiary.io/#usersearchthql)** | $req_data - an array with `key-values` to execute a search with THQL
 
 About
 =====
